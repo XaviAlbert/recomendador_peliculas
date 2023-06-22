@@ -22,10 +22,10 @@ train_data = pd.read_csv('data/train/train.csv')
 
 numeric_columns = train_data.select_dtypes(include='number')
 
-X = numeric_columns.drop('NOTA', axis=1)  
-y = numeric_columns['NOTA']
+X_train = numeric_columns.drop('NOTA', axis=1)  
+y_train = numeric_columns['NOTA']
 
 regression_model = LinearRegression()
-regression_model.fit(X, y)
+regression_model.fit(X_train, y_train)
 
 joblib.dump(regression_model, 'models/regresion_lineal.pkl')
