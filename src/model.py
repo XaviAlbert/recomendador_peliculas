@@ -1,10 +1,6 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression, Ridge, Lasso
-from sklearn.tree import DecisionTreeRegressor, DecisionTreeClassifier
-from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier
-from sklearn.svm import SVC
-from sklearn.cluster import KMeans
+from sklearn.linear_model import LinearRegression
 import joblib
 
 df = pd.read_csv('data/processed/data.csv')
