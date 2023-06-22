@@ -1,5 +1,5 @@
 import pandas as pd
-from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.metrics import mean_squared_error
 import joblib
 
 test_data = pd.read_csv('data/test/test.csv')
