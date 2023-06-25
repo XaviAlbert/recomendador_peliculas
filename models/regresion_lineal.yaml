@@ -1,5 +1,0 @@
-model: LinearRegression
-parameters:
-  fit_intercept: true
-  normalize: false
-  copy_X: true
