@@ -10,7 +10,7 @@ Proporciona recomendaciones personalizadas de películas a los usuarios utilizan
 - Incluye una aplicación web basada en Streamlit para interactuar con el sistema de recomendación y visualizar los resultados.
 
 ##Estructura de carpetas
-- data: Contiene los conjuntos de datos utilizados para entrenar y evaluar los modelos.
-- models: Almacena los modelos entrenados y los archivos relacionados.
-- src: Contiene el código fuente del proyecto, incluyendo los archivos de entrenamiento de modelos y evaluación.
-- app: Contiene los archivos necesarios para la aplicación web basada en Streamlit.
+- **data**: Contiene los conjuntos de datos utilizados para entrenar y evaluar los modelos.
+- **models**: Almacena los modelos entrenados y los archivos relacionados.
+- **src**: Contiene el código fuente del proyecto, incluyendo los archivos de entrenamiento de modelos y evaluación.
+- **app**: Contiene los archivos necesarios para la aplicación web basada en Streamlit.
