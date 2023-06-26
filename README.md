@@ -7,7 +7,7 @@ Este proyecto es un sistema de recomendación de películas basado en algoritmos
 - Implementa varios modelos de aprendizaje automático supervisados, como regresión lineal, Ridge, Lasso, SVM y Random Forest, para predecir las calificaciones de las películas.
 - Aplica el algoritmo K-means para realizar agrupamiento de películas y generar recomendaciones basadas en la similitud de características.
 - Incluye una aplicación web basada en Streamlit para interactuar con el sistema de recomendación y visualizar los resultados.
-- 
+  
 ### Estructura de carpetas
 - data: Contiene los conjuntos de datos utilizados para entrenar y evaluar los modelos.
 - models: Almacena los modelos entrenados y los archivos relacionados.
